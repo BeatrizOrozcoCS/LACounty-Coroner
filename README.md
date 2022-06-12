@@ -60,10 +60,8 @@ Key things to note is the amount in the total Results and looking at the Results
 #### Results per Page = 50
 ![image](https://user-images.githubusercontent.com/51274827/173217195-a7012ba8-1199-415b-b53f-394e9870dbe5.png)<br />
 
-This lead to the question, what happens if we manipulate the webpage so we can return any amount of results per page instead of the default values given. <br />
-In this example I will do the max (10,0000 Results Per Page) (Anything more than that risks a disconnecting error) <br />
-Side note it takes some time for the webpage to process the large amount of results. <br />
-(for me to process 10,000 results per page took a couple of mins)
+This lead to the question, what happens if we manipulate the webpage so we can return any amount of results per page instead of the default values given.
+In this example I will do 10,0000 Results Per Page (Anything more than that risks a disconnecting error).Side note it takes some time for the webpage to process the large amount of results. (for me to process 10,000 results per page took a couple of mins)<br />
 
 #### Results per Page = 10000
 ![image](https://user-images.githubusercontent.com/51274827/173217320-d0dcff52-d1ca-43f2-aff4-19f0eb5af159.png)<br />
@@ -73,11 +71,8 @@ Side note it takes some time for the webpage to process the large amount of resu
 # Step 3: Copy and Paste the data onto an Excel file
 Since every page now can hold 10,000 results, it becomes an easy task to simply press ctrl-a and ctrl-c to select everything on a page and copy it onto an excel file. And repeat that at least 14 times. 
 
-When you do that make sure to paste onto the excel with the match destination formating.<br />
-![image](https://user-images.githubusercontent.com/51274827/173219447-6f37cdb6-6bcd-452d-8c1b-8f39a8e1a993.png)<br />
-After that delete the obvious useless information (highlighted in yellow) at the top and bottom of the data. <br />
-![image](https://user-images.githubusercontent.com/51274827/173219503-a7757272-7a8f-44d4-820f-95395a1f36a2.png)<br />
-![image](https://user-images.githubusercontent.com/51274827/173219518-a6d2ccc9-ae48-4f41-bcd7-973dd9526a88.png)<br />
+When you do that make sure to paste onto the excel with the match destination formating.
+Also make sure before copy and pasting the next poage to delete the obvious useless information at the top and bottom of the data. <br />
 
 # Step 4: Data Cleanup using Python
 After manually Copying and Pasting all that information onto an excel sheet, you now have over 700,000 rows of data
