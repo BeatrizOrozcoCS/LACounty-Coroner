@@ -50,30 +50,9 @@ I confirmed it with going to the Network Tab and seeing that there was a JQuery 
 
 ![image](https://user-images.githubusercontent.com/51274827/173215122-aea7b85d-02e6-4e30-9fba-1f81b97299c2.png)
 
-# Step 2: Interesting Work Around
-Normally we could be able to create a webscraper using requests, beautiful soup, or scrapy or any other common web scraping tools.
-These tools work great for most websites but for websites with JQuery scripts running in the background and having that populate fields, it gets tricky.<br />
-Key things to note is the amount in the total Results and looking at the Results Per Page element. The defualt values for that element is 15,30,50 That was the value that controls the amount of JQuery results that appear on the webpage.
-#### Results per Page = 15 
-![image](https://user-images.githubusercontent.com/51274827/173217158-70112584-7cde-411d-8530-a69579de0cf2.png)<br />
-#### Results per Page = 30
-![image](https://user-images.githubusercontent.com/51274827/173217173-e3f49bb6-9011-4bcf-b725-d3166f74ebce.png)<br />
-#### Results per Page = 50
-![image](https://user-images.githubusercontent.com/51274827/173217195-a7012ba8-1199-415b-b53f-394e9870dbe5.png)<br />
-
-This lead to the question, what happens if we manipulate the webpage so we can return any amount of results per page instead of the default values given.
-In this example I will do 10,0000 Results Per Page (Anything more than that risks a disconnecting error).Side note it takes some time for the webpage to process the large amount of results. (for me to process 10,000 results per page took a couple of mins)<br />
-
-#### Results per Page = 10000
-![image](https://user-images.githubusercontent.com/51274827/173217320-d0dcff52-d1ca-43f2-aff4-19f0eb5af159.png)<br />
-![image](https://user-images.githubusercontent.com/51274827/173217513-7df2c110-6beb-44a9-a428-2074313c3648.png)<br />
-
+# Step 2: 
  
-# Step 3: Copy and Paste the data onto an Excel file
-Since every page now can hold 10,000 results, it becomes an easy task to simply press ctrl-a and ctrl-c to select everything on a page and copy it onto an excel file. And repeat that at least 14 times. 
-
-When you do that make sure to paste onto the excel with the match destination formating.
-Also make sure before copy and pasting the next poage to delete the obvious useless information at the top and bottom of the data. <br />
+# Step 3: 
 
 # Step 4: Data Cleanup using Python
 After manually Copying and Pasting all that information onto an excel sheet, you now have over 700,000 rows of data
