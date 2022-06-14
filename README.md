@@ -92,6 +92,7 @@ In this case for people that died the same day they were born they do not have 5
 
 
 
+# Step 4: Data Visualization
 
-
+![image](https://user-images.githubusercontent.com/51274827/173510049-a122a8e8-9d4c-4df0-93a4-75fa3c94cc3d.png)
 
