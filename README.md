@@ -1,6 +1,7 @@
-# LACounty-Coroner
+# LACounty-Coroner (Incomplete)
 Data visualization project using LACounty-Coroner data from thier public websites
-
+<br />
+### Still filling out the Readme and Respository.
 # Why make this project
 This project was inspired by LA Times Homicide Report. https://homicide.latimes.com/ <br />
 It made me realize that many people die in an area and it is not mentioned in the news and I wanted to bring awareness to myself of all the lives lost. 
