@@ -19,3 +19,5 @@ https://mec.lacounty.gov/unidentified-persons-search/<br />
 https://mec.lacounty.gov/unclaimed-persons-search/<br />
 
 # Step 1: Go and Inspect the Website
+![image](https://user-images.githubusercontent.com/51274827/184560355-373b9593-1583-4b9c-903e-352e52adc77a.png)
+![image](https://user-images.githubusercontent.com/51274827/184560384-490684ec-8223-4e50-8987-b937520b4884.png)
