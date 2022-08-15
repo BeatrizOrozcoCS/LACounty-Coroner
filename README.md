@@ -17,8 +17,13 @@ https://mec.lacounty.gov/unidentified-persons-search/<br />
 https://mec.lacounty.gov/unclaimed-persons-search/<br />
 
 # Step 1: Go and Inspect the Website
-Learn more about the website and see patterns and hows its formatted. First thing to note is that you can manipulate the 
+Learn more about the website and see patterns and hows its formatted. First thing to note is that you are not limited by the default values. Meaning you can manipulate the value of the dropdown menu and insert any numerical value and have it return more cases than the default. 
+![image](https://user-images.githubusercontent.com/51274827/184560847-ec12809e-4ed2-49a1-9bec-29b3935ad044.png)
 
+Changing the default values to 1000
+![image](https://user-images.githubusercontent.com/51274827/184561360-8d52a99b-e10d-4eed-aea1-ccb3256baef3.png)
+1000 results per page
+![image](https://user-images.githubusercontent.com/51274827/184561435-605cf199-9a35-465b-842e-55cf26e4d10d.png)
 
 Second thing to note is that if you know all of the case numbers you can go trhough the deatils of each case from the url. (Base url + casenumber) -> case details
 ![image](https://user-images.githubusercontent.com/51274827/184560486-06df2d87-4a71-44f8-9ca0-c13dd9f7a21d.png)
@@ -26,8 +31,8 @@ Second thing to note is that if you know all of the case numbers you can go trho
 
 
 # Step 2: Get the Case Numbers (Not fully automated yet - to be added at a later date)
-Looking at the selenium 
-![image](https://user-images.githubusercontent.com/51274827/184560847-ec12809e-4ed2-49a1-9bec-29b3935ad044.png)
+
+
 
 
 # Step 3: Get all the Case deatils
@@ -52,7 +57,8 @@ The overall goal is to grab all this informaiton and export it to an excel sheet
 # Step 4: Clean up data
 After extracting all the data its important to transform the data to optimize its useage. For isntance cleaning up can include getting rid of trailing and leading spaces or just normalizing results. 
 
-
+For instance Place of death can include many ways of saying hte same thing. WE can normalize indoors vs outdoors, make the following: *Freeway, * FreeWay - Off Ramp, * FreeWat - On Ramp 
+into -> Freeway
 
 # Step 5: Visulize Trends  
 Once we have an excel sheet with all the information, we can start using visulization tools like tableu, PowerBI, python libraries to start visualizing trends and seeing patterns.  
