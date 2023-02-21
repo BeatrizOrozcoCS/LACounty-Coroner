@@ -20,21 +20,22 @@ https://mec.lacounty.gov/unclaimed-persons-search/<br />
 
 
 # Step 3: Get all the Case deatils
-This is a very structed websites and every case has the same number of objects to read. Using selenium we can go through all the cases and extract case information:
-* CaseNumber
-* CaseStatus
-* BodyStatus
-* Gender
-* Ethnicity
-* PlaceofDeath 
-* Manner
-* Investigator
-* DeputyMedicalExaminer
-* CauseA 
-* CauseB
-* CauseC 
-* CauseD 
-* OtherSignificantConditions
+This is a very structed websites that uses an api. Every case has the same number of objects to read. Using selenium we can go through all the cases and extract case information using the api seen from inspecting the webpage.
+Data:
+  * CaseNumber
+  * CaseStatus
+  * BodyStatus
+  * Gender
+  * Ethnicity
+  * PlaceofDeath 
+  * Manner
+  * Investigator
+  * DeputyMedicalExaminer
+  * CauseA 
+  * CauseB
+  * CauseC 
+  * CauseD 
+  * OtherSignificantConditions
 
 The overall goal is to grab all this informaiton and export it to an excel sheet. 
 
