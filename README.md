@@ -4,9 +4,7 @@ Data visualization project using LACounty-Coroner data from thier public website
 ### Still filling out the Readme and Respository.
 # Why make this project
 This project was inspired by LA Times Homicide Report. https://homicide.latimes.com/ <br />
-It made me realize that many people die in an area and it is not mentioned in the news and I wanted to bring awareness to myself of all the lives lost. 
 
-The end goal of this project is to show people how I used Selenium to traverse the website and get information.
 # Things to Note
 This project is only data from people processed by the LA County Medical Examiner Office so it is simply a portion of all the deaths that happend in LA County. 
 
