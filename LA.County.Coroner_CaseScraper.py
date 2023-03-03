@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
 
-driverpath = r'C:\Users\Orozc\OneDrive\My Documents\Projects\LACounty_Coroner\msedgedriver.exe'
+driverpath = r'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 def get_casename():
 
@@ -133,36 +133,3 @@ b = go_towebpage(a)
 
 
 
-s
-# https://mec.lacounty.gov/case-detail/?caseNumber=2022-06036
-# info = pd.read_excel("DeathList.xlsx",sheet_name = "Final")
-
-# df_caseNumber = info["caseNumber"]
-# info_list = df_caseNumber.values.tolist()
-# def tag_visible(element):
-#     if element.parent.name in [
-#             'style', 'script', 'head', 'title', 'meta', '[document]'
-#     ]:
-#         return False
-#     if isinstance(element, Comment):
-#         return False
-#     return True
-# url ="https://mec.lacounty.gov/case-detail/?caseNumber=2022-06020"
-# for i in range(0, len(info_list)):
-    
-
-# locations of where to webscrape them
-# headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39","referer": "https://mec.lacounty.gov/case-search/"
-#     }
-# currentUrl = requests.get(url,headers=headers)
-# soup = BeautifulSoup(currentUrl.text, 'html.parser')
-# texts = soup.findAll(text=True)
-
-# info = soup.find(id = 'caseControl').find_all()
-
-# for word in info:
-#     print(word.get_text())
-# urls = soup.find(id= 'caseControl').get_text() #all url
-# temp_url_list =[]  
-# for items in urls:
-#    a.append(items.attrs['href'])
