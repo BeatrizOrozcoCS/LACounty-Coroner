@@ -11,7 +11,7 @@ def get_general_caseinfo():
 
     api = "http://api.lacounty.gov/mecsearch/CaseInformationServlet?pageNumber=" + str(pgnum) + "&pageSize=10000&NameFirst=&NameLast=&BirthDate=&Age=&DeathDate=&CaseNum=&sortColumn=CaseNum&sortOrder=desc"
     # 
-    driverpath = r"C:\Users\Orozc\OneDrive\My Documents\Projects\edgedriver_win64\msedgedriver.exe"
+    driverpath = r"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     driver = webdriver.Edge(driverpath)
     driver.get(api)
 
